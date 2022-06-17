@@ -1,0 +1,48 @@
+header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 50px;
+  font-style: inherit;
+  padding: 2%;
+  background-color: #69804A;
+  color: white;
+}
+header:hover{
+  background-color: white;
+  color: #69804A;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 30px;
+}
+h1{
+  font-size: 40px;
+  color: #69804A;
+}
+h4{
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+}
+figcaption{
+  font-size: 12px;
+}
+span{
+  background-color: #d3d3d3;
+}
+img{
+  display: flex;
+  justify-content: center;
+}
+hr{
+  width: 100%;
+}
